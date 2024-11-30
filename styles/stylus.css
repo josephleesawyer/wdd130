@@ -1,0 +1,6 @@
+/* It is recommended that you start with the following CSS declaration for all of your work in this class to help control the aspect ratio of images. */
+
+img {
+  width: 100%;
+  height: auto;
+}

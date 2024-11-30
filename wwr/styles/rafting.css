@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #598144;
+    --secondary-color: #dcfdfc;
+    --accent1-color: #fddd6e;
+    --accent2-color: #fffbcc;
+    /* coolors.co url: https://coolors.co/598144-dcfdfc-fddd6e-fffbcc */
+
+}
+
+main {
+
+    background-color: var(--secondary-color);
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Chelsea Market'; }
+/*    Work Sans   Chelsea Market*/
+
+p { font-family: 'Work Sans'; }
+/*    Work Sans   Chelsea Market*/
+
+.socialmedlinks {
+    text-decoration: none;
+
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }

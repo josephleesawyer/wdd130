@@ -1,5 +1,11 @@
+:root {
+    --theme-color-1: rgb(20, 152, 240);
+
+
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--theme-color-1);
     padding: 10px;
 }
 
@@ -10,7 +16,8 @@ nav a {
 }
 
 h1 {
-color: darkblue;
+color: var(--theme-color-1);
+/* text-shadow: 0 0 30px rgb(0, 0, 0); */
 }
 
 main img {
@@ -54,3 +61,4 @@ footer {
     border-top: 1px dashed #3631744b;
     text-align: center;
 }
+
