@@ -7,15 +7,26 @@
 
 }
 
-main {
-
-    background-color: var(--secondary-color);
+body {
+    background-color: var(--primary-color);
 }
 
-h1, h2, h3, h4, h5, h6 { font-family: 'Chelsea Market'; }
+
+.centered {    /*class="centered"*/
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    /* font-size: 18px; */
+}
+
+
+
+h1, h2, h3, h4, h5, h6 { font-family: "Chelsea Market", Arial, sans-serif;  }
 /*    Work Sans   Chelsea Market*/
 
-p { font-family: 'Work Sans'; }
+
+p { font-family: "Work Sans"; }
 /*    Work Sans   Chelsea Market*/
 
 .socialmedlinks {
@@ -24,8 +35,53 @@ p { font-family: 'Work Sans'; }
 
 }
 
+.hero {
+position: relative
+
+}
+
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
   }
+  
+  .hero h1 {
+position: absolute;
+text-shadow: var(--primary-color) 0 0 15px;
+color: var(--accent1-color);
+font-size: 90px;
+position: absolute;
+top: 38px;
+width: 100%;
+text-align: center;
+
+
+
+}
+
+  .hero article {
+    position: absolute;
+    text-shadow: black 0 0 15px;
+    color: var(--secondary-color);
+    font-size: 50px;
+    position: absolute;
+    bottom: 8%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    box-shadow: #000 0 0 10px;
+    background-color: #59814470;
+
+
+}
+
+.hero article img {
+    float: right;
+    width: 200px;
+    text-shadow: black 0 10 10px;
+    /* box-shadow: #000 0 0 10px; */
+    /* border: 15px solid var(--secondary-color); */
+    /* padding: 0 40px 0 0 ; */
+}
