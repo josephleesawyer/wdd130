@@ -80,7 +80,6 @@ text-align: center;
 .hero article img {
     float: right;
     width: 200px;
-    text-shadow: black 0 10 10px;
     /* box-shadow: #000 0 0 10px; */
     /* border: 15px solid var(--secondary-color); */
     /* padding: 0 40px 0 0 ; */
